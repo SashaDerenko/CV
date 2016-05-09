@@ -12,3 +12,9 @@ body {
   text-align: center;
   max-width: 1200px
 }
+#big-picture {
+    background-image: url("../img/big-cat.jpg");
+    margin-top: -20px;
+    background-repeat: no-repeat;
+    height: 640px;
+}
