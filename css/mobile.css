@@ -1,0 +1,27 @@
+nav {
+   display: none;
+}
+
+.small-cat {
+    display: none;
+}
+#about-me article p {
+    width: 100%;
+}
+.education {
+    display: none;
+}
+#form {
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+    width: 100%;
+}
+#social{
+    margin: 0 auto;
+    text-align: center;
+}
+.fa.social {
+    font-size: 2.5em;
+    margin: 10px;
+}

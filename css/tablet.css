@@ -1,0 +1,35 @@
+#name {
+    visibility: hidden;
+}
+nav {
+    background-color: blue;
+}
+
+#about-me article {
+    height: 33%;
+}
+
+.small-cat.right {
+    width: 0;
+    display: none;
+}
+.small-cat.left {
+    height: 210px;
+    width: 20%;
+}
+#about-me article p{
+    width:75%;
+}
+
+#form {
+    text-align: center;
+    float: none;
+    width: 100%;
+}
+#social{
+    text-align: center;
+}
+.fa.social {
+    font-size: 2.5em;
+    margin: 10px;
+}

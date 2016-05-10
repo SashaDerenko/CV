@@ -126,6 +126,11 @@ header{
           transform: scale(2);
 }
 
-footer{
+
+#contact-me {
+  height: 400px;
+  background-color: #f1f1f1;
+}
+footer {
   clear: both;
 }
