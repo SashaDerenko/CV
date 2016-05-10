@@ -62,34 +62,56 @@
     	    <h2>My skills</h2>
     	</article>
     	<article id="education">
-    	    <h2>Education</h2>	
+    	    <h2>Education</h2>
+    	    <img class = "education left" alt="lviv polytech logo" src="img/education1.png">
+    		<img class = "education right" alt="SoftServe IT academy logo" src="img/education2.png">
     		
+    		<i class="fa fa-university" aria-hidden="true"></i>
+    		<h3>National University "Lviv Politechnic"</h3>
+    		<p>Software Engineering 2014-2018 (Bachelaur)</p>
+    		
+    		<i class="fa fa-book" aria-hidden="true"></i>
+    		<h3>SoftServe IT Academy</h3>
+    		<p>HTML5/CSS3/JavaScript fundamentals 2016</p>
     	</article>
     	<article id="contact-me">
-    	    <h2>Contact me</h2>	
-    		<form class="contact-form" action="" method="post" name="contact-form">
-    			<ul>
-    				<li>
-    					<h2>Contact Me!</h2>
-    				</li>
-    				<li>
-    					<label for="name-input">Name:</label>
-    					<input type="text" id="name-input" placeholder="Dart Vader" required />
-    				</li>
-    				<li>
-    				    <label for="email">Email:</label>
-    				    <input type="email" id="email" placeholder="DartVader@gmail.com" required pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
-    				</li>
-    				<li>
-    				    <label for="message">Message:</label>
-    				    <textarea id="message" cols="40" rows="6" placeholder="Some text">
-    				    	</textarea>
-    				</li>
-    				<li>
-    				    <button class="submit" type="submit">Contact</button>
-    				</li>
-    			</ul>
-    		</form>
+    	    <section id="form">
+        		<form class="contact-form" action="//formspree.io/astra_097@ukr.net" method="POST" name="contact-form" id="contact-form">
+        			<ul>
+        				<li>
+        					<h2>Contact Me!</h2>
+        				</li>
+        				<li>
+        					<label for="name-input">Name:</label>
+        					<input type="text" id="name-input" name="name-input" placeholder="Dart Vader" required />
+        				</li>
+        				<li>
+        				    <label for="email">Email:</label>
+        				    <input type="email" id="email" name="email" placeholder="DartVader@gmail.com" required pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+        				</li>
+        				<li>
+        				    <label for="message">Message:</label>
+        				    <textarea id="message" name="message" cols="40" rows="6" placeholder="Some text">
+        				    	</textarea>
+        				</li>
+        				<li>
+        				    <button id="btn-send-mail" name="btn-send-mail" class="submit" type="submit">Contact</button>
+        				</li>
+        			</ul>
+        		</form>
+        	</section>
+        	<section id="social">
+        	    <h2>Find me on:</h2>
+        	    <a href="https://vk.com/astra_097">
+        	        <i class="fa fa-vk social" aria-hidden="true"></i>
+        	    </a>
+        	    <a href="https://www.facebook.com/profile.php?id=100002177204455">
+        	        <i class="fa fa-facebook social" aria-hidden="true"></i>
+        	    </a>
+        	     <a href="https://github.com/SashaDerenko">
+        	        <i class="fa fa-github social" aria-hidden="true"></i>
+        	    </a>
+        	</section>
     	</article>
     </main>
     <a href="#site-top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i>  </a>

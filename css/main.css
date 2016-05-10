@@ -34,7 +34,7 @@ header{
 }
 
 #about-me{
-  height: 720px;
+  height: 732px;
 }
 #about-me article {
   height: 33%;
@@ -95,4 +95,37 @@ header{
 #hiring{
   clear: both;
   background-color: #66c5ff;
+}
+
+.fa:not(.fa-caret-square-o-up){
+  font-size: 3em;
+}
+.education{ width: 200px; }
+.education.left { float: left; }
+.education.right{ float: right; }
+
+#form{
+  float: left;
+  width: 40%;
+}
+#social{
+  float: left;
+  width: 40%;
+}
+
+.fa.social{
+  font-size: 4em;
+  color: blue;
+  margin: 50px;
+}
+.fa.social:hover{
+  background-color: #f3eddf;
+  transition: 1s;
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
+}
+
+footer{
+  clear: both;
 }
