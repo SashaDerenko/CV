@@ -46,6 +46,7 @@ header{
   padding: 15px;
   font-size: 1.3em;
 }
+#about-me 
 .small-cat { width: 20%; }
 .small-cat.left { float: left; }
 .small-cat.right{ float: right; }
@@ -133,4 +134,7 @@ header{
 }
 footer {
   clear: both;
+}
+#hobbies h2{
+   text-align: center;
 }
